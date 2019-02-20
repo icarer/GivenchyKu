@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>商品详情</title>
+    <link rel="stylesheet" href="css/subpro-Detail.css">
+</head>
+<body>
+	<!-- header -->
+	<header>
+		<div id="head">
+			<div class="lefthead">
+				<a href="#" class="country-sel" title="区域：CN￥（选择区域）">
+					区域
+					<span>:</span>
+					<strong>CN ￥</strong>
+				</a>
+				<a href="#" class="language-sel">语言</a>
+				<a href="#" class="contact-way">联系方式</a>
+			</div>
+			<div class="logo">
+				<a href="index.html">
+					<img src="img/logo.svg" class="logo"/>
+				</a>
+			</div>
+
+			<div class="righthead">
+				<div id="login-reg">
+					<ul class="loginCls">
+						<li><a href="login-reg.html" class="login">登录</a></li>
+						<div id="dlzc">
+							<form method="post" action="login.php">
+								<input type="text" id="useremail" placeholder="电子邮箱地址 *">
+								<input type="password" id="userpass" placeholder="密码 *">
+								<input type="button" id="subbtn" value="登录">
+								<!-- <label><input type="checkbox" id="remanber">记住我</label> -->
+								<div class="nav-rememberme">
+									<input type="checkbox" id="rememberme" name="a">
+									<label for="rememberme">记住我</label>
+								</div>
+								
+								<a class="forget" href="#">忘记密码？</a>
+								<a class="zc" href="reg.html">没有账户？</a>
+							</form>
+						</div>
+					</ul>
+				</div>
+				<div id="collect">
+					<a href="#" class="coll">
+						<img src="img/shoucang.png"/>
+						<span>0</span>
+					</a>
+					<div id="xyd">
+						您的心愿单中没有商品。
+						<div class="xydbox"><a href="#">查看我的心愿单</a></div>
+					</div>
+				</div>
+				<div id="search">
+					<a href="#"><img src="img/sousuo.png" class="search"></a>
+				</div>
+			</div>
+		</div>
+		<nav>
+			<ul id="nav">
+				<li class="nav-li">
+					<a href="#" class="navg"><span>系列</span></a>
+					<div class="xlbox">
+						<div class="contentbox">
+							<ul class="con-ul">
+								<li class="con-ul-li">
+									<div class="box-img">
+										<a href="#"><img src="img/xlimg1.jpg" alt=""></a>
+									</div>
+									<ul class="innerul">
+										<li><a href="#" class="dangan">档案</a></li>
+									</ul>
+								</li>
+								<li class="con-ul-li">
+									<a href="#" class="li-titlt"><span>2019春夏</span></a>
+									<ul class="innerul">
+										<li><a href="#">女士早春系列</a></li>
+										<li><a href="#">春季男装</a></li>
+										<li><a href="#">夏季</a></li>
+									</ul>
+								</li>
+								<li class="con-ul-li">
+									<a href="#" class="li-titlt"><span>2019秋冬</span></a>
+									<ul class="innerul">
+										<li><a href="#">秋季女装</a></li>
+									</ul>
+								</li>
+								<li class="con-ul-li">
+									<a href="#" class="li-titlt"><span>Haute Couture</span></a>
+									<ul class="innerul">
+										<li><a href="#">2018春夏</a></li>
+										<li><a href="#">2018秋冬</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li class="nav-li">
+					<a href="#" class="navg"><span>女士</span></a>
+					<div class="xlbox">
+						<div class="contentbox">
+							<ul class="con-ul">
+								<li class="con-ul-li">
+									<div class="box-img">
+										<a href="#"><img src="img/nsimg2.jpg" alt=""></a>
+									</div>
+									<ul class="innerul">
+										<li><a href="#" class="dangan">档案</a></li>
+									</ul>
+								</li>
+								<li class="con-ul-li">
+									<a href="#" class="li-titlt"><span>2019春夏</span></a>
+									<ul class="innerul">
+										<li><a href="sub1.html">最新系列</a></li>
+										<li><a href="#">女士礼品</a></li>
+										<li><a href="#">夏季</a></li>
+									</ul>
+								</li>
+								<li class="con-ul-li">
+									<a href="#" class="li-titlt"><span>2019秋冬</span></a>
+									<ul class="innerul">
+										<li><a href="#">秋季女装</a></li>
+									</ul>
+								</li>
+								<li class="con-ul-li">
+									<a href="#" class="li-titlt"><span>Haute Couture</span></a>
+									<ul class="innerul">
+										<li><a href="#">2018春夏</a></li>
+										<li><a href="#">2018秋冬</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li class="nav-li">
+					<a href="#" class="navg"><span>男士</span></a>
+					<div class="xlbox">
+						<div class="contentbox">
+							<ul class="con-ul">
+								<li class="con-ul-li">
+									<div class="box-img">
+										<a href="#"><img src="img/nsimg3.jpg" alt=""></a>
+									</div>
+									<ul class="innerul">
+										<li><a href="#" class="dangan">档案</a></li>
+									</ul>
+								</li>
+								<li class="con-ul-li">
+									<a href="#" class="li-titlt"><span>2019春夏</span></a>
+									<ul class="innerul">
+										<li><a href="#">女士早春系列</a></li>
+										<li><a href="#">春季男装</a></li>
+										<li><a href="#">夏季</a></li>
+									</ul>
+								</li>
+								<li class="con-ul-li">
+									<a href="#" class="li-titlt"><span>2019秋冬</span></a>
+									<ul class="innerul">
+										<li><a href="#">秋季女装</a></li>
+									</ul>
+								</li>
+								<li class="con-ul-li">
+									<a href="#" class="li-titlt"><span>Haute Couture</span></a>
+									<ul class="innerul">
+										<li><a href="#">2018春夏</a></li>
+										<li><a href="#">2018秋冬</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li class="nav-li">
+					<a href="#" class="navg"><span>品牌</span></a>
+					<div class="xlbox">
+						<div class="contentbox">
+							<ul class="con-ul">
+								<li class="con-ul-li">
+									<div class="box-img">
+										<a href="#"><img src="img/ppimg4.jpg" alt=""></a>
+									</div>
+									<ul class="innerul">
+										<li><a href="#" class="dangan">档案</a></li>
+									</ul>
+								</li>
+								<li class="con-ul-li">
+									<a href="#" class="li-titlt"><span>2019春夏</span></a>
+									<ul class="innerul">
+										<li><a href="#">女士早春系列</a></li>
+										<li><a href="#">春季男装</a></li>
+										<li><a href="#">夏季</a></li>
+									</ul>
+								</li>
+								<li class="con-ul-li">
+									<a href="#" class="li-titlt"><span>2019秋冬</span></a>
+									<ul class="innerul">
+										<li><a href="#">秋季女装</a></li>
+									</ul>
+								</li>
+								<li class="con-ul-li">
+									<a href="#" class="li-titlt"><span>Haute Couture</span></a>
+									<ul class="innerul">
+										<li><a href="#">2018春夏</a></li>
+										<li><a href="#">2018秋冬</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li class="nav-li">
+					<a href="#" class="navg"><span>门店</span></a>
+				</li>
+				<li class="nav-li">
+					<a href="#" class="navg"><span>美妆</span></a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+    <div class="container">
+		 <div class="con">
+			 <div class="exzoom" id="exzoom">
+				<!--大图区域-->
+				<div class="exzoom_img_box">
+				<ul class='exzoom_img_ul'>
+					<li><img src="img/detail-img1.jpg"/></li>
+					<li><img src="img/detail-img2.jpg"/></li>
+					<li><img src="img/detail-img3.jpg"/></li>
+					<li><img src="img/detail-img4.jpg"/></li>
+					<li><img src="img/detail-img1.jpg"/></li>
+					<li><img src="img/detail-img2.jpg"/></li>
+					<li><img src="img/detail-img3.jpg"/></li>
+					<li><img src="img/detail-img4.jpg"/></li>
+				</ul>
+				</div>
+				<!--缩略图导航-->
+				<div class="exzoom_nav"></div>
+				<!--控制按钮-->
+				<p class="exzoom_btn"> <a href="javascript:void(0);" class="exzoom_prev_btn"> &lt; </a> <a href="javascript:void(0);" class="exzoom_next_btn"> &gt; </a> </p>
+			 </div>
+			<div class="pro-detail">
+				<div class="pro-label">
+					新品
+				</div>
+				<div class="pro-content">
+					<h1 class="pro-name">真丝褶裥围巾长袖衬衫</h1>
+					<span class="pro-price">14200</span>
+					<div class="form-button">
+						<div class="bigg">
+							<div class="left-btn">
+								<button class="more-details" index="0">更多细节 +</button>
+								<div class="details-box"></div>
+								<!-- <div class="details-box" style="display: block;"><div class="description">长袖衬衫，黑色双绉面料，可拆卸褶饰围巾领。隐藏式扣袢，圆形底边，后片更长。</div><p>产品编号： <span class="bh-num">BW60EK10JX-001</span></p><div class="other">其他</div><p>Made in Italy</p><p>不可洗涤</p><p>最高温度110°C无蒸气熨烫</p><p>请勿用滚筒洗衣机甩干</p><p>请勿漂白</p></div> -->
+							</div>
+							<div class="right-btn">
+								<button class="size-btn" size="0">尺码 +</button>
+								<ul class="size-box"></ul>
+							</div>
+						</div>
+						<div class="big-col-count">
+							<div class="col-count">
+								<div class="color">
+									<button class="color-btn" col="0">颜色 +</button>
+									<ul class="color-box"></ul>	<!-- <li><img src="img/color-img1.jpg"></li>
+										<li><img src="img/color-img2.jpg"></li>
+										<li><img src="img/color-img3.jpg"></li>-->
+								</div>
+								<div class="count">
+									<button class="minus">-</button>
+									<span>0</span>
+									<button class="add">+</button>
+								</div>
+							</div>
+						</div>
+						<div class="shopcar">
+							<div class="addshopcar">
+								<button class="addshopcar-btn">加入购物车</button>
+							</div>
+							<div class="nowshopping">
+								<button class="nowshopping-btn">立即购买</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		 </div>
+	</div>
+	<div id="footermd">
+		<div id="shop">
+			<a href="#">
+				<img src="img/search.png" alt="">寻找附近门店
+			</a>
+		</div>
+	</div>
+	<div id="newsletter">
+		<div id="newscon">
+			<div id="news">
+				<h3>订阅Givenchy电子新闻和通讯</h3>
+				<p>率先了解新品信息和活动。</p>
+			</div>
+			<div id="email">
+				<input type="text" id="e-txt" placeholder="电子邮箱地址 *">
+			</div>
+			<div id="agree">
+				<p>我同意GIVENCHY根据隐私政策规定的条款处理我的数据。我希望GIVENCHY通过电子邮件与我联系，以接收GIVENCHY最新资讯，有关GIVENCHY产品和服务的个性化信息，以及与GIVENCHY相关的活动邀请和市场调查。</p>
+			</div>
+			<div id="dingyue">
+				<button id="dybtn">订阅</button>
+			</div>
+		</div>
+	</div>
+	<div id="server">
+		<div id="servercon">
+			<div id="customser">
+				<span class="foot-title">客户服务</span>
+				<ul class="foot-ul">
+					<li><a href="#">常见问题解答</a></li>
+					<li><a href="#">取消订阅</a></li>
+					<li><a href="#">联系人</a></li>
+					<li><a href="#">增强对比度</a></li>
+				</ul>
+			</div>
+			<div id="about">
+				<span class="foot-title">关于</span>
+				<ul class="foot-ul">
+					<li><a href="#">招贤纳士</a></li>
+					<li><a href="#">新闻</a></li>
+				</ul>
+			</div>
+			<div id="falv">
+				<span class="foot-title">法律</span>
+				<ul class="foot-ul">
+					<li><a href="#">隐私政策</a></li>
+					<li><a href="#">浏览器缓存政策</a></li>
+					<li><a href="#">条款与条件</a></li>
+					<li><a href="#">Anti Modern Slavery Statement</a></li>
+				</ul>
+			</div>
+			<div id="beian">
+				<a href="#" id="baimg1">
+					<img src="img/beianimg1.jpg" alt="">
+					<span>访问givenchybeauty.com </span>
+				</a>
+				<p>&nbsp;</p>
+				<p>
+					<img src="img/beianimg2.png" alt=""> 沪公网安备 31010602001699号
+				</p>
+				<p>沪ICP备18007175号</p>
+				<p>纪梵希(上海)商贸有限公司</p>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div id="footer-con">
+			<ul id="icon">
+				<li><a href="#"><img src="img/weibo.png" alt=""></a></li>
+				<li><a href="#"><img src="img/fenxiang.png" alt=""></a></li>
+			</ul>
+		</div>
+	</footer>
+</body>
+</html>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script> 
+<script src="js/jquery.exzoom.js"></script> 
+<script type="text/javascript">
+$("#exzoom").exzoom({
+autoPlay: false,
+});//方法调用，务必在加载完后执行
+</script>
+<script>
+	$(".nav-li").mouseover(function(){
+		$(this).children('.xlbox').css({"display":"block"});
+	})
+	$(".nav-li").mouseout(function(){
+		$(this).children('.xlbox').css({"display":"none"});
+		$(this).children('.xlbox').mouseover(function(){
+			$(this).css({"display":"block"});
+		})
+		$(this).children('.xlbox').mouseout(function(){
+			$(this).css({"display":"none"});
+		})
+	})
+	$(window).scroll(function(){
+		if($(this).scrollTop()>=138){
+			$("header").slideUp();
+		}else if($(this).scrollTop()<=138){
+			$("header").slideDown();
+		}
+	})
+	$(".more-details").mouseover(function(){
+		$(this).css("margin-top","-5px");
+	})
+	$(".more-details").mouseout(function(){
+		$(this).css("margin-top","0px");
+	})
+	$(".size-btn").mouseover(function(){
+		$(this).css("margin-top","-5px");
+	})
+	$(".size-btn").mouseout(function(){
+		$(this).css("margin-top","0px");
+	})
+	$(".more-details").click(function(){
+		let index=$(this).attr("index");
+		if(index==0){
+			$(this).attr("index","1");
+			$(".details-box").slideDown();
+			$(this).html("更少细节 -");
+			if($(".details-box").html()!=""){
+				return;
+			}else{
+				let str = `<div class="description">长袖衬衫，黑色双绉面料，可拆卸褶饰围巾领。隐藏式扣袢，圆形底边，后片更长。</div><p>产品编号： <span class="bh-num">BW60EK10JX-001</span></p><div class="other">其他</div><p>Made in Italy</p><p>不可洗涤</p><p>最高温度110°C无蒸气熨烫</p><p>请勿用滚筒洗衣机甩干</p><p>请勿漂白</p>`;
+				$(".details-box").append(str);
+				
+
+			}
+		}else{
+			$(this).attr("index","0");
+			$(".details-box").css("display","none");
+			$(this).html("更多细节 +");
+		}
+	})
+	$('.more-details').click(function(){
+		$('.bigg').toggleClass('super');
+	})
+	$(".size-btn").click(function(){
+		let index=$(this).attr("size");
+		if(index==0){
+			$(this).attr("size","1");
+			$(".size-box").slideDown();
+			$(this).html("尺码 -");
+			$(".size-box").css("display","flex");
+			if($(".size-box").html()!=""){
+				return;
+			}else{
+				let str=`<li>34</li><li>36</li><li>38</li><li>40</li><li>42</li><li>44</li><li>46</li><li>48</li>`;
+				
+				$(".size-box").append(str);
+				$(".size-box li").click(function(){
+					$(this).toggleClass('curr-size');
+					$(".size-box li").not($(this)).removeClass('curr-size');
+					$(this).css("background","#f60");
+					$(".size-box li").not($(this)).css("background","white");
+				})
+			}
+		}else{
+			$(this).attr("size","0");
+			$(".size-box").css("display","none");
+			$(this).html("尺码 +");
+		}
+	})
+
+	$(".size-btn").click(function(){
+		$(".bigg").toggleClass("sizebox");
+	})
+	$(".color-btn").click(function(){
+		let index=$(this).attr("col");
+		if(index==0){
+			$(this).attr("col","1");
+			$(".color-box").css("height","180px");
+			$(".color-box").slideDown();
+			$(this).html("颜色 -");
+			if($(".color-box").html()!=""){
+				return;
+			}else{
+				let str=`<li><span>黑色</span><img src="img/color-img1.jpg"></li><li><span>白色</span><img src="img/color-img2.jpg"></li><li><span>蓝色</span><img src="img/color-img3.jpg"></li>`;
+				$(".color-box").append(str);
+				$(".color-box li").click(function(){
+					$(this).children('span').toggleClass('curr-color');
+					$(".color-box li").not($(this)).children('span').removeClass('curr-color');
+					$(this).children('span').css("background","#f60");
+					$(".color-box li").not($(this)).children('span').css("background","white");
+				})
+			}
+		}else{
+			$(this).attr("col","0");
+			$(".color-box").css("display","none");
+			$(this).html("颜色 +");
+		}
+	})
+	$(".color-btn").click(function(){
+		$(".big-col-count").toggleClass("col-off-no");
+	})
+	$(".add").click(function(){
+		let num = $(this).prev().html();
+		let sum = parseInt(num)+1;
+		if(sum==0){
+			return;
+		}
+		$(this).prev().html(sum);
+	})
+	$(".minus").click(function(){
+		let num = $(this).next().html();
+		if(num==0){
+			return;
+		}else{
+			let sum = parseInt(num)-1;
+			if(sum==0){
+				return;
+			} 
+			$(this).next().html(sum);
+		}
+	})
+</script>
+<script>
+	//存数据
+	$(".addshopcar-btn").click(function(){
+		let request = new XMLHttpRequest();
+		request.open('post','php/addShoppingCar.php',true);
+		request.onreadystatechange = function(){
+			if(request.readyState==4 && request.status==200){
+				console.log(request.responseText);
+				if(request.responseText='1'){
+					alert("加购成功！");
+				}else{
+					alert("加购失败！");
+				}
+			}
+		}
+		request.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+		let sendstr = "proname="+ $('.pro-name').html()+"&price="+$('.pro-price').html()+"&size="+$('.curr-size').html()+"&color="+$('.curr-color').html()+"&procount="+$('.count').children('span').html();
+		request.send(sendstr);
+	})
+</script>
